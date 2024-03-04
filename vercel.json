@@ -1,9 +1,14 @@
 {
   "redirects": [
     {
-      "source": "/((?!en|ru|desktop|fresco).)*",
-      "destination": "/en/desktop/:path*",
-      "permanent": true
+      "source": "/:locale(en|ru)/:path*",
+      "destination": "/:locale/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/:path*",
+      "destination": "/en/:path*",
+      "permanent": false
     }
   ]
 }
