@@ -1,7 +1,7 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/((?!en|ru|desktop|fresco).)*",
       "destination": "/en/desktop/:path*",
       "permanent": true
     }
