@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/((?!en|ru))/:path*",
-      "destination": "/en/desktop/:path*"
+      "source": "/((?!en|ru).*)",
+      "destination": "/en/desktop/"
     }
   ]
 }
