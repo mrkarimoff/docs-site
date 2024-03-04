@@ -13,14 +13,7 @@ const nextConfig = {
   redirects: async () => {
     return [
       {
-        source: '/:path*',
-        has: [
-          {
-            type: 'header',
-            key: 'accept-language',
-            value: '(en|ru|es)',
-          },
-        ],
+        source: '/(en|ru)/:path*',
         destination: '/:path*',
         permanent: true,
         locale: false,
