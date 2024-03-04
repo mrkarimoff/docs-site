@@ -24,11 +24,11 @@ const nextConfig = {
         destination: '/:path*',
         permanent: false,
       },
-      {
-        source: '/:path*',
-        destination: '/en/:path*',
-        permanent: false,
-      },
+      // {
+      //   source: '/:path*',
+      //   destination: '/en/:path*',
+      //   permanent: false,
+      // },
     ];
   },
 };
