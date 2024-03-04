@@ -1,8 +1,8 @@
 {
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/desktop",
-      "destination": "/en/desktop",
+      "source": "/en/:path*",
+      "destination": "/en/:path*",
       "permanent": true
     }
   ]
