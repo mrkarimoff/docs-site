@@ -4,6 +4,22 @@
       "source": "/desktop/interface-documentation/categorical-bin",
       "destination": "/en/desktop/interface-documentation/categorical-bin",
       "permanent": true
+    },
+    {
+      "source": "/desktop",
+      "destination": "/en/desktop",
+      "permanent": true
+    },
+    {
+      "source": "/(en|ru)/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "destination": "/en/:path*",
+      "permanent": false,
+      "locale": false
     }
   ]
 }
