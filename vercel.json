@@ -6,11 +6,6 @@
       "permanent": true
     },
     {
-      "source": "/en/:path*",
-      "destination": "/en/:path*",
-      "permanent": true
-    },
-    {
       "source": "/ru/:path*",
       "destination": "/ru/:path*",
       "permanent": true
