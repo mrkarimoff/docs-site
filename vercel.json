@@ -3,7 +3,7 @@
     {
       "source": "/:path*",
       "destination": "/en/desktop/:path*",
-      "permanent": true
+      "permanent": false
     }
   ]
 }
