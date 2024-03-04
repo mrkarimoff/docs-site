@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/desktop/interface-documentation/categorical-bin",
+      "destination": "/en/desktop/interface-documentation/categorical-bin",
+      "permanent": true
+    }
+  ]
+}
