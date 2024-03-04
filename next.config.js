@@ -10,6 +10,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  i18n: {
+    locales: ['en', 'ru'], // replace with your locales
+    defaultLocale: 'en-US', // replace with your default locale
+  },
   redirects: async () => {
     return [
       {
