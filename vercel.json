@@ -1,8 +1,13 @@
 {
   "redirects": [
     {
-      "source": "/desktop",
-      "destination": "/en/desktop",
+      "source": "/(en|ru)/:path*",
+      "destination": "/:1/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "destination": "/en/desktop/:path*",
       "permanent": true
     }
   ]
