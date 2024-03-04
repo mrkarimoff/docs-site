@@ -10,24 +10,25 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  i18n: {
-    locales: ['en', 'ru'], // replace with your locales
-    defaultLocale: 'en-US', // replace with your default locale
-  },
   redirects: async () => {
     return [
       {
-        source: '/',
-        destination: '/:locale',
-        permanent: true,
-        locale: false,
+        source: '/:path*',
+        has: [
+          {
+            type: 'header',
+            key: 'accept-language',
+            value: '(en|ru|es)',
+          },
+        ],
+        destination: '/:path*',
+        permanent: false,
       },
-      // {
-      //   source: '/contributing-code/:path*',
-      //   destination: '/:locale/contributing-code/:path*',
-      //   permanent: true,
-      //   locale: false,
-      // },
+      {
+        source: '/:path*',
+        destination: '/en/:path*',
+        permanent: false,
+      },
     ];
   },
 };
