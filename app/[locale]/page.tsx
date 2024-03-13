@@ -12,7 +12,7 @@ const Page = ({ params: { locale } }: { params: { locale: string } }) => {
   return (
     <div>
       <h2>
-        {t('title')} {locale}
+        {t('title')} for {locale}
       </h2>
     </div>
   );
