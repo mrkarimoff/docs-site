@@ -1,4 +1,4 @@
-# Network Canvas Documentation
+# Network Canvas Documentation (copy)
 
 Welcome to the Network Canvas documentation website—a comprehensive resource for users of Network Canvas, a suite of applications designed to facilitate the collection of social network data.
 
